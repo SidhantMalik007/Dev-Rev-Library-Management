@@ -1,0 +1,25 @@
+.navbar{
+    position: sticky;
+    top: 0;
+
+}
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    height: 2em;
+    justify-content: space-around;
+    align-items: center;
+    width:100%; 
+}
+.filter{
+    border: solid black ;
+    border-radius: 8px;
+    padding: .15em;
+    cursor: pointer;
+}
+.filter:hover{
+    background-color: black;
+    color: pink;
+}
